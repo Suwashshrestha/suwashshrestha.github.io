@@ -27,15 +27,16 @@ export function HeroSection() {
       >
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
           <div className="lg:col-span-3 space-y-6">
-            <div className="flex items-center space-x-3">
-              <div className="h-1 w-12 bg-primary rounded-full" />
-              <p className="text-muted-foreground font-medium">Hi, I'm Suwash</p>
-            </div>
+           
             
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
-              <span className="block">Building</span>
-              <span className="block">Exceptional</span>
-              <span className="block text-primary">Digital Experiences</span>
+            <div className="flex items-center space-x-3">
+              <div className="h-1 w-12 bg-primary rounded-full" />
+              
+              <span className="block text-primary">Hi, I'm Suwash Shrestha</span>
+            </div>
+            
+              
             </h1>
             
             <p className="text-lg text-muted-foreground max-w-2xl">
